@@ -15,6 +15,7 @@
   padding: 1.7rem 0;
   cursor: pointer;
   user-select: none;
+  font-weight: light;
 }
 
 .questionTitle:hover {
