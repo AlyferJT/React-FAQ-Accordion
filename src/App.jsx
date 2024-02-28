@@ -15,7 +15,7 @@ function App() {
   return (
     <main className="qaSection">
       <h1>
-        <img className="star" src={starImg} />
+        <img className="star" src={starImg} alt='star icon' />
         FAQs
       </h1>
       <ul className="questionBox">
