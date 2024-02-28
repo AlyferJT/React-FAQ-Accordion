@@ -6,7 +6,7 @@ import { QUESTIONS } from "./data";
 import starImg from "./assets/images/icon-star.svg";
 
 function App() {
-  const [selectedAnswer, setSelectedAnswer] = useState();
+  const [selectedAnswer, setSelectedAnswer] = useState(0);
 
   function onSelect(selectedQuestion) {
     setSelectedAnswer(selectedQuestion === selectedAnswer ? '' : selectedQuestion)
