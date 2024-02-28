@@ -1,0 +1,30 @@
+.question {
+  border-bottom: 1px solid hsl(275, 100%, 97%);
+}
+
+.question:last-of-type {
+  border: none;
+  padding: 0;
+}
+
+.questionTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
+  padding: 1.7rem 0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.questionTitle:hover {
+  color: hsl(288, 90%, 67%);
+}
+
+.questionAnswer {
+  color: hsl(292, 16%, 49%);
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  padding-bottom: 2rem;
+}
+
