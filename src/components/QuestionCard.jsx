@@ -15,7 +15,7 @@ function QuestionCard({ id, onSelect, question, answer, actualSelected }) {
         className="questionTitle"
       >
         <h2>{question} </h2>
-        <img className="actionImg" src={displayImg} />
+        <img className="actionImg" src={displayImg} alt='quest action icon' />
       </div>
       <p style={displayStyle} className="questionAnswer">
         {answer}
